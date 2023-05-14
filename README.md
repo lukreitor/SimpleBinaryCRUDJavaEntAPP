@@ -12,21 +12,29 @@ The project is structured into the following packages:
 
 ## File Management
 
-The application allows the user to view and modify the data even after closing and reopening the application. The information is stored in a text file for each data class used (`Trainer`, `Client`, `Manager`). The implementation details are up to the developer as long as CRUD operations and file read/write operations work properly.
+This desktop application is a continuation of the previous project and adds the functionality of reading and writing to binary files. The application implements at least 3 windows for information registration and CRUD operations (Create, Read, Update, and Delete) using the Model-View-Controller (MVC) design pattern.
+
+The application allows the user to view and modify the data even after closing and reopening the application. The information is stored in a binary file for each data class used (Trainer, Client, Manager). The implementation details for file management and CRUD operations are left up to the developer as long as they work properly.
+
+For example, for the implementation of a Client window, three classes are expected: ClientWindow, ClientControllerBinary, and the Client model class. The same applies to the other windows.
+
+The application will persist the information entered into the windows to the binary files before the application is closed. Upon reopening the application, the information will be loaded from the binary files.
+
+Users can perform CRUD operations on the data through the graphical user interfaces (GUIs). CRUD operations are performed on an in-memory ArrayList of data before being persisted to the binary files.
 
 ## Screenshots
 
 ### Main Window
-![Main Window](main.png)
+![Main Window](Main.png)
 
 ### Trainer Management Window
-![Trainer Management Window](trainer.png)
+![Trainer Management Window](Trainer.png)
 
 ### Client Management Window
-![Client Management Window](client.png)
+![Client Management Window](Client.png)
 
 ### Manager Management Window
-![Manager Management Window](manager.png)
+![Manager Management Window](mMnager.png)
 
 ### System Folders
 ![System Folders](Sistema_Pastas.jpeg)
