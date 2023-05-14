@@ -34,7 +34,7 @@ Users can perform CRUD operations on the data through the graphical user interfa
 ![Client Management Window](Client.png)
 
 ### Manager Management Window
-![Manager Management Window](mMnager.png)
+![Manager Management Window](Manager.png)
 
 ### System Folders
 ![System Folders](Sistema_Pastas.jpeg)
